@@ -1,0 +1,7 @@
+.About{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 30vh;
+    justify-content: center;
+}

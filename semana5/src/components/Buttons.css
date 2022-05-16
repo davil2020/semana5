@@ -1,0 +1,17 @@
+.btn {
+    background:#05285b ;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.btn:hover {
+    background: #213495;
+}

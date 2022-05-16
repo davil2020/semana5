@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+
+}
+
+.form-wrap {
+    background-color: #333;
+    border-radius: 18px;
+    padding: 1.5vmax 2.5vmax;
+    color: #fff;
+    box-shadow: 3px 3px rgb(23, 22, 22);
+    opacity: 0.9;
+}
+
+.form-wrap h1, 
+.form-wrap p {
+    text-align: center;
+}
+
+.form-wrap .form-group {
+    margin-top: 3vh;
+}
+
+.form-wrap .form-group label {
+    color: #fff;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 8px;
+    box-shadow:2px 2px  rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+footer a {
+    color: #49c1a2;
+    cursor: pointer;
+}
