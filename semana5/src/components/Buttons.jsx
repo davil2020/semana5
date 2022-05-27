@@ -3,7 +3,7 @@ import './Buttons.css'
 
 const Buttons = props => (
     <div>
-        <button type="submit" className="btn">Entre</button>
+        <button type={props.type} className="btn">{props.title}</button>
     </div>
 )
 

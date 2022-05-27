@@ -11,13 +11,13 @@ import { Link } from "react-router-dom";
         <nav>
            <ul>
                <li>
-                    <Link to='/home'>Home</Link>
+                    <Link to='/login'>Login</Link>
                </li>
                <li>
                     <Link to='/about'>Sobre Nós</Link>
                </li>
                <li>
-                    <Link to='/'>Login</Link>
+                    <Link to='/'>Home</Link>
                </li>
            </ul>
         </nav>

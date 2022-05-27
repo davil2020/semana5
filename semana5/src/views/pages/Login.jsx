@@ -18,7 +18,7 @@ import Buttons from "../../components/Buttons";
                     <label for="password">Senha</label>
                     <input type="password" name="password" id="password" placeholder="Digite sua senha" />
                     </div><br />
-                    <Buttons></Buttons>
+                    <Buttons type={"submit"} title={'Entre'}></Buttons>
                 </form>
             </div>
             <footer>

@@ -1,7 +1,143 @@
-.Home{
-    box-sizing: border-box;
+.home_conteiner .conteiner1{
     display: flex;
     flex-direction: column;
-    padding: 30vh;
+    align-items: center;
     justify-content: center;
+    padding: 8em;
+    z-index: 10;
+    background: url('https://www.stoodi.com.br/wp-content/uploads/2019/08/spacex-YSvUYqf9Mjk-unsplash-1-1920x1024.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.home_conteiner h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.home_conteiner h1 span{
+    color: rgb(15, 15, 99);
+    padding: 0 .2em;
+    background-color: #fff;
+}
+
+.home_conteiner .conteiner1 p {
+    margin-bottom: 1.3em;
+    font-size: 1.8em;
+    
+}
+
+.home_conteiner .conteiner1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.home_conteiner img{
+    margin: 2em 0;
+}
+
+.home_conteiner .link{
+    padding: 0.8em 1.5em;
+    font-size: 1.3em;
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgb(15, 15, 99);
+    margin-top: 2.5em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.home_conteiner .link:hover{
+    background-color: rgb(15, 15, 99);
+    color: #fff;
+}
+
+.home_conteiner .conteiner2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    padding: 3em;
+    z-index: 10;
+    background: var(--grew-color);
+}
+
+.home_conteiner .conteiner2::before{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+
+.home_conteiner .conteiner2 .card{
+   
+    background: var(--grew-color);
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-gap: 1rem;
+    align-items: center;
+    width: 100%;
+    
+}
+
+/* Zomm image */
+
+.home_conteiner .conteiner2 .card .img1{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_conteiner .conteiner2 .card .img1 img{
+    border-radius: 30%;
+    width: 25vh;
+    height: 20vh;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+.home_conteiner .conteiner2 .card .img1:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+.home_conteiner .conteiner2 .card .img2{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.home_conteiner .conteiner2 .card .img2 img{
+    border-radius: 30%;
+    width: 25vh;
+    height: 20vh;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+.home_conteiner .conteiner2 .card .img2:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.home_conteiner .conteiner2 p{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 28vh;
 }

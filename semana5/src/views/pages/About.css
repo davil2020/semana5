@@ -2,6 +2,67 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 30vh;
+    padding: 20vh;
     justify-content: center;
+    z-index: 10;
+    background: url('https://www.stoodi.com.br/wp-content/uploads/2019/08/spacex-YSvUYqf9Mjk-unsplash-1-1920x1024.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.About::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.About h1{
+    font-size: 2.9rem;
+    margin: auto;
+    text-align: center;
+}
+
+.About .content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3rem;
+}
+
+.About .content h3{
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 1.3rem;
+}
+
+.About .content img{
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    margin: auto;
+}
+
+.About .content2 h3{
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 1.3rem;
+}
+
+.About .content2 img{
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    margin: auto;
+}
+
+.About .content2{
+    width: 100%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    margin-top: 4rem;
 }

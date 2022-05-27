@@ -9,9 +9,9 @@ import Login from '../../views/pages/Login'
  const Content = props => (
     <main className="Content">
         <Routes>
-            <Route path="/home" element={<Home/>} />
+            <Route path="/login" element={<Login/>} />    
             <Route path="/about" element={<About/>} />
-            <Route exact path="/" element={<Login/>} />    
+            <Route path="/" element={<Home/>} />
         </Routes>
     </main>
 )
